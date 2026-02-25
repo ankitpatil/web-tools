@@ -1,4 +1,6 @@
 "use client";
+
+
 import { useState } from "react";
 import { format } from "sql-formatter";
 import { CopyButton } from "@/components/CopyButton";
