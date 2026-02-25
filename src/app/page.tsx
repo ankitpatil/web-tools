@@ -31,9 +31,9 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-16">
       <div className="mb-12 text-center">
-        <h1 className="mb-3 text-4xl font-bold tracking-tight">⚡ DevToolBox</h1>
+        <h1 className="mb-3 text-4xl font-bold tracking-tight">⚡ OnlineFreeTools.dev</h1>
         <p className="text-lg text-[var(--text-secondary)]">
-          20+ free developer tools that run entirely in your browser. Fast, private, no sign-up.
+          24+ free developer tools that run entirely in your browser. Fast, private, no sign-up.
         </p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

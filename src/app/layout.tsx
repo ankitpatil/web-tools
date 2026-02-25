@@ -9,12 +9,12 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: { default: "DevToolBox — Free Online Developer Tools", template: "%s | DevToolBox" },
-  description: "20+ free, fast, client-side developer tools. JSON formatter, Base64 encoder, UUID generator, regex tester, and more. No data leaves your browser.",
-  keywords: ["developer tools", "json formatter", "base64", "uuid generator", "online tools"],
+  title: { default: "OnlineFreeTools.dev — Free Online Developer Tools", template: "%s | OnlineFreeTools" },
+  description: "24+ free, fast, client-side developer tools. JSON formatter, Base64 encoder, UUID generator, and more. No data leaves your browser.",
+  keywords: ["developer tools", "json formatter", "base64", "uuid generator", "online tools", "free tools", "browser tools"],
   openGraph: {
-    title: "DevToolBox — Free Online Developer Tools",
-    description: "20+ free, fast, client-side developer tools. No data leaves your browser.",
+    title: "OnlineFreeTools.dev — Free Online Developer Tools",
+    description: "24+ free, fast, client-side developer tools. No data leaves your browser.",
     type: "website",
   },
 };
@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Navbar />
           <main className="min-h-[calc(100vh-120px)]">{children}</main>
           <footer className="border-t border-[var(--border)] py-6 text-center text-sm text-[var(--text-secondary)]">
-            <p>DevToolBox — All tools run 100% in your browser. No data is sent to any server.</p>
+            <p>OnlineFreeTools.dev — All tools run 100% in your browser. No data is sent to any server.</p>
           </footer>
         </ThemeProvider>
       </body>
