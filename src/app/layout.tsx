@@ -10,13 +10,22 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://onlinefreetools.dev"),
   title: { default: "OnlineFreeTools.dev — Free Online Developer Tools", template: "%s | OnlineFreeTools" },
-  description: "24+ free, fast, client-side developer tools. JSON formatter, Base64 encoder, UUID generator, and more. No data leaves your browser.",
+  description: "27+ free, fast, client-side developer tools. JSON formatter, Base64 encoder, UUID generator, and more. No data leaves your browser.",
   keywords: ["developer tools", "json formatter", "base64", "uuid generator", "online tools", "free tools", "browser tools"],
+  alternates: { canonical: "/" },
   openGraph: {
     title: "OnlineFreeTools.dev — Free Online Developer Tools",
-    description: "24+ free, fast, client-side developer tools. No data leaves your browser.",
+    description: "27+ free, fast, client-side developer tools. No data leaves your browser.",
     type: "website",
+    url: "https://onlinefreetools.dev",
+    siteName: "OnlineFreeTools.dev",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "OnlineFreeTools.dev — Free Online Developer Tools",
+    description: "27+ free, fast, client-side developer tools. No data leaves your browser.",
   },
 };
 
@@ -24,6 +33,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "OnlineFreeTools.dev",
+              url: "https://onlinefreetools.dev",
+              description: "27+ free, fast, client-side developer tools. No data leaves your browser.",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: "https://onlinefreetools.dev/?q={search_term_string}",
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
         <Analytics />
         <SpeedInsights />
         <ThemeProvider>
