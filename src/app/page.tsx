@@ -30,6 +30,7 @@ const tools = [
   { name: "Flexbox/Grid Generator", desc: "Build CSS layouts visually", href: "/flexbox-generator", icon: "📐" },
   { name: "Crontab Generator", desc: "Build cron expressions with schedule preview", href: "/crontab-generator", icon: "⏰" },
   { name: "JSON to TypeScript", desc: "Generate TypeScript interfaces from JSON", href: "/json-to-typescript", icon: "🔷" },
+  { name: "Chmod Calculator", desc: "Calculate Linux file permissions visually", href: "/chmod-calculator", icon: "🔒" },
 ];
 
 export default function Home() {
@@ -38,7 +39,7 @@ export default function Home() {
       <div className="mb-12 text-center">
         <h1 className="mb-3 text-4xl font-bold tracking-tight">⚡ OnlineFreeTools.dev</h1>
         <p className="text-lg text-[var(--text-secondary)]">
-          29+ free developer tools that run entirely in your browser. Fast, private, no sign-up.
+          30+ free developer tools that run entirely in your browser. Fast, private, no sign-up.
         </p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
