@@ -28,6 +28,7 @@ const tools = [
   { name: "Hex Converter", desc: "Convert between Hex, Dec, Bin, Oct", href: "/hex-converter", icon: "🔢" },
   { name: "SVG Optimizer", desc: "Optimize SVG markup and reduce size", href: "/svg-optimizer", icon: "✨" },
   { name: "Flexbox/Grid Generator", desc: "Build CSS layouts visually", href: "/flexbox-generator", icon: "📐" },
+  { name: "Crontab Generator", desc: "Build cron expressions with schedule preview", href: "/crontab-generator", icon: "⏰" },
 ];
 
 export default function Home() {
@@ -36,7 +37,7 @@ export default function Home() {
       <div className="mb-12 text-center">
         <h1 className="mb-3 text-4xl font-bold tracking-tight">⚡ OnlineFreeTools.dev</h1>
         <p className="text-lg text-[var(--text-secondary)]">
-          27+ free developer tools that run entirely in your browser. Fast, private, no sign-up.
+          28+ free developer tools that run entirely in your browser. Fast, private, no sign-up.
         </p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
