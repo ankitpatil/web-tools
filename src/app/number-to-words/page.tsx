@@ -87,6 +87,13 @@ export default function NumberToWords() {
         <div className="output-box text-lg capitalize">{output}</div>
       )}
       {output && <div className="btn-group mt-3"><CopyButton text={output} /></div>}
+
+      <section className="tool-prose">
+        <h2>About the Number to Words Converter</h2>
+        <p>The Number to Words converter translates any integer into its written English equivalent instantly. Enter a number — from small values to billions and beyond — and get the full written form. Useful for invoices, legal documents, accessibility labels, and financial reporting.</p>
+        <p>Converting numbers to words is a requirement in many formal and legal contexts where numeric figures must be spelled out to prevent ambiguity or fraud — such as on checks (&ldquo;one hundred dollars&rdquo;), contracts, and government forms. It is also used in text-to-speech applications for accessibility (ARIA labels) and in generating human-readable content programmatically.</p>
+        <p>All conversion runs locally in your browser using a JavaScript implementation. No data is sent to any server. The tool supports positive integers and handles comma separators in large numbers automatically.</p>
+      </section>
     </div>
   );
 }

@@ -39,6 +39,13 @@ export default function YamlJson() {
       </div>
       {error && <p className="error-text">❌ {error}</p>}
       {output && <div className="output-box">{output}</div>}
+
+      <section className="tool-prose">
+        <h2>About the YAML ↔ JSON Converter</h2>
+        <p>The YAML ↔ JSON Converter bidirectionally converts between YAML and JSON with validation. Paste YAML to get JSON, or paste JSON to get YAML. Both directions validate the input format and display clear error messages for any syntax issues.</p>
+        <p>YAML (YAML Ain&apos;t Markup Language) and JSON are both human-readable data serialization formats, but they serve different audiences. YAML uses indentation and minimal punctuation, making it preferred for configuration files — Kubernetes manifests, Docker Compose files, GitHub Actions workflows, and Ansible playbooks all use YAML. JSON uses explicit braces and quotes, making it preferred for API payloads and programmatic data exchange.</p>
+        <p>Converting between them is a frequent task when adapting configuration for different tools or debugging YAML files by inspecting their JSON equivalent. All conversion runs locally in your browser using the js-yaml library — no data is sent to any server.</p>
+      </section>
     </div>
   );
 }

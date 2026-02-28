@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "QR Code Generator — Free Online Tool",
-  description: "Generate QR codes with custom colors and sizes instantly. Download as PNG. No sign-up required.",
+  description: "Generate QR codes online with custom colors, sizes, and error correction levels. Download as PNG or SVG. Free, private, and 100% client-side — no uploads required.",
   keywords: ["qr code generator", "qr generator", "qr code maker", "create qr code online", "free qr code"],
   alternates: { canonical: "/qr-generator" },
   openGraph: {

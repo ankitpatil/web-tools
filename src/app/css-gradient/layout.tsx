@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "CSS Gradient Generator — Free Online Tool",
-  description: "Build and preview CSS gradients visually with live code output. Supports linear and radial gradients. Copy-ready CSS.",
+  description: "Generate CSS linear and radial gradients visually with a live preview. Copy the generated CSS code in one click. Free, instant, and fully browser-based.",
   keywords: ["css gradient generator", "gradient maker", "linear gradient", "radial gradient", "css gradient online"],
   alternates: { canonical: "/css-gradient" },
   openGraph: {

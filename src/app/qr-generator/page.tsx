@@ -104,6 +104,13 @@ export default function QrGenerator() {
           <img src={dataUrl} alt="QR Code" className="rounded-lg border border-[var(--border)]" />
         </div>
       )}
+
+      <section className="tool-prose">
+        <h2>About the QR Code Generator</h2>
+        <p>The QR Code Generator creates custom QR codes from any text, URL, or data string. Customize the foreground and background colors, set the output size, and choose the error correction level (L, M, Q, or H). Download the QR code as a PNG or SVG file.</p>
+        <p>QR codes (Quick Response codes) are two-dimensional barcodes that encode text or URLs and can be scanned by any smartphone camera. They are used for website links, app downloads, contact cards (vCards), payment links, Wi-Fi credentials, and event ticketing. Error correction allows QR codes to remain scannable even when partially obscured or damaged — higher correction levels increase redundancy at the cost of a denser code.</p>
+        <p>All QR code generation runs locally in your browser using the qrcode.js library. No data is sent to any server, making it safe to generate QR codes for private URLs or internal content.</p>
+      </section>
     </div>
   );
 }

@@ -192,6 +192,13 @@ export default function FlexboxGenerator() {
           </div>
         </div>
       </div>
+
+      <section className="tool-prose">
+        <h2>About the CSS Layout Generator</h2>
+        <p>The CSS Layout Generator creates Flexbox and CSS Grid code visually with a live preview. Select your layout model, adjust direction, alignment, gaps, and wrapping, and get production-ready CSS in one click. Perfect for learning layout fundamentals or quickly generating boilerplate for a new component.</p>
+        <p>Flexbox and CSS Grid are the two primary layout systems in modern CSS. Flexbox is best for one-dimensional layouts — arranging items in a row or column. Grid is best for two-dimensional layouts — placing items across both rows and columns simultaneously. Both are supported in all modern browsers and replace older techniques like floats and inline-block positioning.</p>
+        <p>All layout code is generated locally in your browser. The generated CSS is minimal and production-ready — no vendor prefixes needed for Flexbox or Grid in modern browsers. Paste it directly into your stylesheet.</p>
+      </section>
     </div>
   );
 }

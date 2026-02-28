@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "HTML/CSS/JS Minifier — Free Online Tool",
-  description: "Minify HTML, CSS, and JavaScript code with size comparison. Reduce file sizes for faster page loads. Free and private.",
+  description: "Minify HTML, CSS, or JavaScript code and see the exact byte savings. Remove whitespace and comments for faster page loads. Free, instant, and fully browser-based.",
   keywords: ["html minifier", "css minifier", "js minifier", "code minifier", "minify html online", "minify css online"],
   alternates: { canonical: "/html-minifier" },
   openGraph: {

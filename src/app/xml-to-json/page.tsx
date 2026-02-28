@@ -80,6 +80,13 @@ export default function XmlToJson() {
       {error && <p className="error-text">❌ {error}</p>}
       {output && <div className="output-box">{output}</div>}
       {output && <div className="btn-group mt-3"><CopyButton text={output} /></div>}
+
+      <section className="tool-prose">
+        <h2>About the XML to JSON Converter</h2>
+        <p>The XML to JSON Converter transforms XML markup into a JSON object representation instantly. Paste any XML document — including nested elements, attributes, and text content — and get a clean JSON output that&apos;s easier to work with in JavaScript and modern APIs.</p>
+        <p>XML (eXtensible Markup Language) remains the standard format for many enterprise systems, SOAP web services, configuration files (Maven, Android manifests), RSS/Atom feeds, and data exports from legacy databases. Converting XML to JSON makes it easier to process in modern JavaScript applications, NoSQL databases, and REST APIs that expect JSON.</p>
+        <p>Attributes are mapped to JSON keys prefixed with <code>@</code>, and text content is mapped to a <code>#text</code> key where necessary. All conversion runs locally in your browser — no XML data is uploaded or sent to any server, making it safe to convert confidential or internal XML payloads.</p>
+      </section>
     </div>
   );
 }

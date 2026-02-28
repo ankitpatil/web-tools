@@ -77,6 +77,13 @@ export default function CsvToJson() {
       {error && <p className="error-text">❌ {error}</p>}
       {output && <div className="output-box">{output}</div>}
       {output && <div className="btn-group mt-3"><CopyButton text={output} /><button className="btn" onClick={download}>💾 Download</button></div>}
+
+      <section className="tool-prose">
+        <h2>About the CSV to JSON Converter</h2>
+        <p>The CSV to JSON Converter transforms comma-separated values (CSV) data into a JSON array of objects. Paste your CSV — including the header row — and get a clean, formatted JSON output instantly. Ideal for importing data into JavaScript applications, REST APIs, or NoSQL databases.</p>
+        <p>CSV is the most common format for data exported from spreadsheets (Excel, Google Sheets) and relational databases. JSON is the standard format for web APIs and modern data pipelines. Converting between them is a frequent task when migrating data, seeding a database, or feeding data into a front-end application.</p>
+        <p>The converter uses the first row as the field names for each JSON object. All conversion runs locally in your browser — no CSV data is uploaded or sent to any server. For large files, you can paste the content directly without any upload size limits.</p>
+      </section>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "XML to JSON Converter — Free Online Tool",
-  description: "Convert between XML and JSON formats instantly in your browser. Bidirectional conversion. Free and private.",
+  description: "Convert XML data to JSON format online. Handles attributes and nested elements. Free, private, and 100% client-side — no uploads or server processing required.",
   keywords: ["xml to json", "json to xml", "xml converter", "xml json converter", "convert xml online"],
   alternates: { canonical: "/xml-to-json" },
   openGraph: {

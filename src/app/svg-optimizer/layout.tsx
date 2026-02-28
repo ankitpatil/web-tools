@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "SVG Optimizer — Free Online Tool",
-  description: "Optimize and minify SVG markup to reduce file size without quality loss. Clean up unnecessary attributes and whitespace. Free and private.",
+  description: "Optimize and minify SVG files by removing metadata, comments, and unnecessary attributes. See the exact byte savings. Free, private, and 100% client-side.",
   keywords: ["svg optimizer", "svg minifier", "svg compressor", "optimize svg online", "svgo online"],
   alternates: { canonical: "/svg-optimizer" },
   openGraph: {

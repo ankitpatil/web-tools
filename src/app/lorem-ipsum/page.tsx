@@ -45,6 +45,13 @@ export default function LoremIpsum() {
         <CopyButton text={output} />
       </div>
       {output && <div className="output-box mt-3 whitespace-pre-wrap">{output}</div>}
+
+      <section className="tool-prose">
+        <h2>About the Lorem Ipsum Generator</h2>
+        <p>The Lorem Ipsum Generator creates placeholder text in configurable amounts of paragraphs, sentences, or words. Use it to fill layouts during design and development before real content is available, ensuring typography, spacing, and layout constraints are tested with realistic text density.</p>
+        <p>Lorem Ipsum is a scrambled excerpt from Cicero&apos;s &ldquo;de Finibus Bonorum et Malorum&rdquo; (45 BC) and has been used as standard placeholder text in typesetting since the 1500s. Its longevity is practical: the unfamiliar Latin prevents readers from being distracted by readable content, keeping focus on the layout itself.</p>
+        <p>All text is generated locally in your browser from a built-in word pool. No server requests are made. The generated text is free to use without attribution in any project.</p>
+      </section>
     </div>
   );
 }

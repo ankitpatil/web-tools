@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "JWT Decoder — Free Online Tool",
-  description: "Decode JWT tokens and inspect the header, payload, and expiry status. No data sent to any server — fully client-side.",
+  description: "Decode JWT tokens and inspect the header, payload, and signature. Checks token expiry status instantly. 100% client-side — your token is never sent to any server.",
   keywords: ["jwt decoder", "jwt parser", "json web token", "decode jwt online", "jwt inspector"],
   alternates: { canonical: "/jwt-decoder" },
   openGraph: {

@@ -82,6 +82,13 @@ export default function HexConverter() {
           </div>
         </div>
       )}
+
+      <section className="tool-prose">
+        <h2>About the Hex / Decimal Converter</h2>
+        <p>The Hex Converter instantly translates numbers between hexadecimal (base 16), decimal (base 10), binary (base 2), and octal (base 8). Enter a value in any base and see the equivalent in all four systems simultaneously.</p>
+        <p>Number base conversion is a fundamental skill in computer science and embedded systems programming. Hexadecimal is the standard notation for memory addresses, color codes, byte values in network packets, and CPU registers — making it essential for low-level programming and debugging. Binary is the native language of digital hardware. Octal appears in Unix file permission notation (e.g., <code>chmod 755</code>).</p>
+        <p>All conversion runs locally in your browser using JavaScript&apos;s built-in <code>parseInt()</code> and <code>toString()</code> methods with explicit radix values. No data is sent to any server.</p>
+      </section>
     </div>
   );
 }

@@ -165,6 +165,37 @@ export default function JsonFormatter() {
           </div>
         </>
       )}
+
+      <section className="tool-prose">
+        <h2>About the JSON Formatter & Validator</h2>
+        <p>The JSON Formatter and Validator instantly beautifies, validates, and minifies JSON data right in your browser. Paste any JSON string to check its syntax, apply 2- or 4-space indentation, or strip whitespace for a compact output. It also converts JSON to CSV or XML with a single click.</p>
+        <p>JSON (JavaScript Object Notation) is the most widely used data format for APIs, configuration files, and data storage. Readable, well-formatted JSON accelerates debugging and speeds up code review. Malformed JSON — a missing comma, an unquoted key — can silently break an application, making instant validation essential.</p>
+        <p>Everything runs 100% in your browser using native JavaScript. No JSON data is ever uploaded or sent to a server. You can format confidential API responses, production database exports, or private config files safely.</p>
+      </section>
+
+      <section className="tool-faq">
+        <h2>Frequently Asked Questions</h2>
+        <details>
+          <summary>What is JSON?</summary>
+          <p>JSON (JavaScript Object Notation) is a lightweight text format for storing and exchanging structured data. It uses key-value pairs and supports strings, numbers, booleans, arrays, and nested objects. It&apos;s the standard format for REST APIs and configuration files.</p>
+        </details>
+        <details>
+          <summary>What&apos;s the difference between pretty print and minified JSON?</summary>
+          <p>Pretty-printed JSON has indentation and newlines that make it readable for humans. Minified JSON removes all whitespace, reducing file size. Both are semantically identical — a JSON parser treats them the same way.</p>
+        </details>
+        <details>
+          <summary>Is my JSON data safe?</summary>
+          <p>Yes. All formatting and validation runs entirely in your browser using JavaScript. No data is sent to any server at any point.</p>
+        </details>
+        <details>
+          <summary>Can this tool fix invalid JSON?</summary>
+          <p>This tool validates JSON and shows where errors occur, but it does not automatically repair malformed JSON. If your JSON is invalid, the error message will indicate the position of the issue so you can fix it manually.</p>
+        </details>
+        <details>
+          <summary>What is JSON tree view?</summary>
+          <p>Tree view renders your JSON as a collapsible, explorable hierarchy rather than raw text. It&apos;s useful for navigating deeply nested objects or large arrays without having to scroll through a wall of text.</p>
+        </details>
+      </section>
     </div>
   );
 }

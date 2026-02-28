@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "CSV to JSON Converter — Free Online Tool",
-  description: "Convert CSV files to JSON arrays instantly in your browser. No server upload required. Free and private.",
+  description: "Convert CSV files or pasted CSV data to a clean JSON array online. Handles headers automatically. Free, private, and 100% client-side — no uploads required.",
   keywords: ["csv to json", "csv converter", "json converter", "convert csv to json online"],
   alternates: { canonical: "/csv-to-json" },
   openGraph: {

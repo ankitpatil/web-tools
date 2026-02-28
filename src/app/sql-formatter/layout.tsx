@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "SQL Formatter — Free Online Tool",
-  description: "Format and beautify SQL queries with proper indentation and keyword casing. Supports multiple SQL dialects.",
+  description: "Format and beautify SQL queries online for improved readability. Supports SELECT, INSERT, UPDATE, DELETE, and more. Free, instant, and fully browser-based.",
   keywords: ["sql formatter", "sql beautifier", "sql pretty print", "format sql online", "sql indenter"],
   alternates: { canonical: "/sql-formatter" },
   openGraph: {

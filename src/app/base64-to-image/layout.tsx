@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Base64 to Image Converter — Free Online Tool",
-  description: "Convert Base64 strings back to viewable and downloadable images. Supports data URLs and raw Base64. Free and private.",
+  description: "Convert Base64-encoded image strings back to viewable images and download them. Supports JPEG, PNG, GIF, and WebP. Free, private, and fully browser-based.",
   keywords: ["base64 to image", "base64 decoder", "base64 image viewer", "decode base64 image", "base64 to png"],
   alternates: { canonical: "/base64-to-image" },
   openGraph: {

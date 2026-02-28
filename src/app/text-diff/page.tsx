@@ -38,6 +38,13 @@ export default function TextDiff() {
           ))}
         </div>
       )}
+
+      <section className="tool-prose">
+        <h2>About the Text Diff Tool</h2>
+        <p>The Text Diff tool compares two blocks of text and highlights the differences line by line. Paste the original text on the left and the modified text on the right to see additions, deletions, and unchanged lines clearly distinguished by color.</p>
+        <p>Text comparison is essential in many workflows: reviewing changes between two versions of a document, comparing configuration files before and after a change, verifying that a code transformation produced the expected output, or spotting unintended edits in contract language. A visual line-by-line diff is far faster than manual inspection.</p>
+        <p>This tool uses the diff library, the same underlying algorithm used by Git, to compute the shortest edit distance between the two texts. All comparison runs locally in your browser — no text is sent to any server, making it safe to compare confidential documents or private code.</p>
+      </section>
     </div>
   );
 }

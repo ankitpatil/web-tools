@@ -79,6 +79,13 @@ export default function ColorConverter() {
           </div>
         </div>
       </div>
+
+      <section className="tool-prose">
+        <h2>About the Color Converter</h2>
+        <p>The Color Converter transforms any color value between HEX, RGB, and HSL formats instantly. Enter a hex code like <code>#2563eb</code>, an RGB value like <code>rgb(37, 99, 235)</code>, or an HSL value and get all three equivalent representations in one click.</p>
+        <p>Different color formats serve different purposes in web development. HEX (<code>#rrggbb</code>) is the most compact and is ubiquitous in CSS and design tools. RGB (<code>rgb(r, g, b)</code>) is useful for dynamic color manipulation in JavaScript, since each channel is a separate numeric value. HSL (Hue, Saturation, Lightness) is the most human-readable format — it makes it easy to create variations of a color by adjusting lightness or saturation while keeping the hue constant, which is ideal for generating accessible color palettes.</p>
+        <p>All conversion runs locally in your browser using standard math transformations. No color data is sent to any server.</p>
+      </section>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Unix Timestamp Converter — Free Online Tool",
-  description: "Convert Unix timestamps to readable dates and times with full timezone support. Works entirely in your browser.",
+  description: "Convert Unix timestamps to human-readable dates and vice versa. Supports all major timezones. Free, instant, and fully browser-based — no sign-up required.",
   keywords: ["timestamp converter", "unix timestamp", "epoch converter", "unix time converter", "timestamp to date"],
   alternates: { canonical: "/timestamp-converter" },
   openGraph: {

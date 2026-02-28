@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Color Converter — Free Online Tool",
-  description: "Convert colors between HEX, RGB, and HSL formats instantly. Live preview included. Free and private.",
+  description: "Convert colors between HEX, RGB, and HSL formats instantly. Paste any color value and get all three formats in one click. Free and fully browser-based.",
   keywords: ["color converter", "hex to rgb", "rgb to hex", "hsl converter", "color format converter"],
   alternates: { canonical: "/color-converter" },
   openGraph: {

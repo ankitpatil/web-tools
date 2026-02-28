@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Text Diff — Free Online Tool",
-  description: "Compare two text blocks side by side and highlight the differences. Supports line-by-line and character-level diffing.",
+  description: "Compare two blocks of text and see the differences highlighted line by line. Great for code review, document editing, and config comparison. Free and browser-based.",
   keywords: ["text diff", "text compare", "diff tool", "compare text online", "text difference checker"],
   alternates: { canonical: "/text-diff" },
   openGraph: {

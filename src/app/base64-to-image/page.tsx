@@ -63,6 +63,13 @@ export default function Base64ToImage() {
           </div>
         </>
       )}
+
+      <section className="tool-prose">
+        <h2>About the Base64 to Image Converter</h2>
+        <p>The Base64 to Image converter decodes a Base64-encoded image string back into a viewable image and lets you download it as a file. Paste a complete data URI (<code>data:image/png;base64,...</code>) or just the raw Base64 string to preview and download the image.</p>
+        <p>Base64 image strings appear frequently in API responses, CSS stylesheets, HTML source code, and database records where binary image data is stored as text. Decoding them back to viewable images is useful for debugging API payloads, inspecting CSS sprites, or recovering images embedded in source code.</p>
+        <p>This tool supports all common image formats encoded as Base64: JPEG, PNG, GIF, WebP, and SVG. All decoding runs locally in your browser — no Base64 data is sent to any server, making it safe to decode confidential or internal images.</p>
+      </section>
     </div>
   );
 }

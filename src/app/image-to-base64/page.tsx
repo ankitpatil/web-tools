@@ -50,6 +50,13 @@ export default function ImageToBase64() {
           </p>
         </>
       )}
+
+      <section className="tool-prose">
+        <h2>About the Image to Base64 Converter</h2>
+        <p>The Image to Base64 converter encodes any image file into a Base64 data URI, ready for embedding directly in HTML <code>&lt;img&gt;</code> tags, CSS <code>background-image</code> properties, or JSON payloads. Upload an image and get the <code>data:image/...;base64,...</code> string instantly.</p>
+        <p>Embedding images as Base64 data URIs eliminates the extra HTTP request that a separate image file would require. This technique is useful for small icons, loading spinners, and inline email images where the cost of an additional network request outweighs the overhead of encoding. It is also commonly used to pass images through JSON APIs without multipart form encoding.</p>
+        <p>Keep in mind that Base64 encoding increases file size by approximately 33% compared to the original binary. For large images, a separate file with proper caching headers is almost always the better choice. All conversion runs locally in your browser using the FileReader API.</p>
+      </section>
     </div>
   );
 }

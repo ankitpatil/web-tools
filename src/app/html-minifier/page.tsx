@@ -51,6 +51,13 @@ export default function HtmlMinifier() {
           <div className="output-box">{output}</div>
         </>
       )}
+
+      <section className="tool-prose">
+        <h2>About the HTML / CSS / JS Minifier</h2>
+        <p>The HTML/CSS/JS Minifier removes whitespace, comments, and unnecessary characters from your code to reduce file size and improve page load speed. Paste your HTML, CSS, or JavaScript, select the type, and click Minify to see the compressed output alongside the exact byte savings.</p>
+        <p>Minification is a standard step in modern web production pipelines. Smaller files transfer faster over the network and reduce both Time to First Byte (TTFB) and Total Blocking Time (TBT) — two Core Web Vitals that directly affect Google search ranking. CSS minification removes comments and collapses whitespace; JavaScript minification additionally removes semicolons and shortens code where possible.</p>
+        <p>For production workflows, minification is typically automated via bundlers like Webpack or Vite. This tool is ideal for quick one-off minification, verifying minifier output, or working with standalone files outside of a build pipeline. All processing runs locally in your browser.</p>
+      </section>
     </div>
   );
 }

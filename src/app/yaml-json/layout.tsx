@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "YAML to JSON Converter — Free Online Tool",
-  description: "Convert between YAML and JSON formats instantly in your browser. Bidirectional conversion with syntax validation.",
+  description: "Convert YAML to JSON and JSON to YAML online. Bidirectional conversion with validation. Free, private, and 100% client-side — no uploads or server processing required.",
   keywords: ["yaml to json", "json to yaml", "yaml converter", "yaml json converter", "convert yaml online"],
   alternates: { canonical: "/yaml-json" },
   openGraph: {

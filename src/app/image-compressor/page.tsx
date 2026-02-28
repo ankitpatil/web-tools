@@ -91,6 +91,13 @@ export default function ImageCompressor() {
           <CopyButton text={output} />
         </div>
       )}
+
+      <section className="tool-prose">
+        <h2>About the Image Compressor</h2>
+        <p>The Image Compressor reduces JPEG, PNG, and WebP file sizes directly in your browser using the HTML Canvas API. Adjust the quality slider to find the right balance between file size and visual quality, then download the compressed image. Your images never leave your device — no upload required.</p>
+        <p>Large image files are one of the most common causes of slow web page load times. Google&apos;s Core Web Vitals — particularly Largest Contentful Paint (LCP) — are directly impacted by image weight. Compressing images before upload to a CMS, CDN, or app reduces bandwidth usage, improves load speed, and lowers storage costs.</p>
+        <p>The compressor uses the browser&apos;s native Canvas API to re-encode images at a lower quality level. JPEG and WebP compression is lossy — some image data is discarded to reduce file size. PNG compression in this tool converts to JPEG/WebP, which may not suit images requiring transparency. All processing runs locally.</p>
+      </section>
     </div>
   );
 }

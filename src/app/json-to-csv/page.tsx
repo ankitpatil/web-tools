@@ -68,6 +68,13 @@ export default function JsonToCsv() {
       {error && <p className="error-text">❌ {error}</p>}
       {output && <div className="output-box font-mono text-sm whitespace-pre-wrap">{output}</div>}
       {output && <div className="btn-group mt-3"><CopyButton text={output} /><button className="btn" onClick={download}>💾 Download</button></div>}
+
+      <section className="tool-prose">
+        <h2>About the JSON to CSV Converter</h2>
+        <p>The JSON to CSV Converter transforms a JSON array of objects into a comma-separated values (CSV) file. Paste a JSON array and get a clean CSV output with automatically mapped column headers, ready to open in Excel, Google Sheets, or any data analysis tool.</p>
+        <p>Converting JSON to CSV is a common task when exporting API data for use in spreadsheets, generating reports from database records, or preparing data for import into tools that don&apos;t accept JSON directly. The converter maps each key of the first object to a CSV column header and writes the values row by row.</p>
+        <p>All conversion runs locally in your browser — no JSON data is uploaded or sent to any server. The output is downloadable as a <code>.csv</code> file. Nested JSON objects are flattened to their string representation in the corresponding cell.</p>
+      </section>
     </div>
   );
 }

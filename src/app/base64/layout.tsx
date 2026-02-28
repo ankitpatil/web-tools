@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Base64 Encode/Decode — Free Online Tool",
-  description: "Encode or decode Base64 strings and files instantly in your browser. Supports text and binary data. No data leaves your browser.",
+  description: "Encode text or files to Base64 and decode Base64 strings back to plain text instantly. Supports binary files and text. Free, private, and fully browser-based.",
   keywords: ["base64 encoder", "base64 decoder", "base64 converter", "encode base64 online", "decode base64 online"],
   alternates: { canonical: "/base64" },
   openGraph: {

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Flexbox & Grid Generator — Free Online Tool",
-  description: "Build CSS Flexbox and Grid layouts visually with live code output. Instantly copy the generated CSS. Free and private.",
+  description: "Generate CSS Flexbox and Grid layout code visually with live preview. Adjust alignment, gaps, and direction without writing a line of CSS. Free and browser-based.",
   keywords: ["flexbox generator", "css grid generator", "css layout tool", "flexbox online", "css grid builder"],
   alternates: { canonical: "/flexbox-generator" },
   openGraph: {

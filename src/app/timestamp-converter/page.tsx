@@ -126,6 +126,13 @@ export default function TimestampConverter() {
           </div>
         </div>
       )}
+
+      <section className="tool-prose">
+        <h2>About the Unix Timestamp Converter</h2>
+        <p>The Unix Timestamp Converter translates between Unix epoch timestamps (seconds or milliseconds since January 1, 1970 UTC) and human-readable dates and times. Supports all major timezones and displays the current timestamp in real time.</p>
+        <p>Unix timestamps are the standard way to represent a point in time in software systems — they&apos;re compact, timezone-agnostic, and trivially comparable (a later time is always a larger number). They appear in log files, database records, API responses, JWT tokens (<code>iat</code>, <code>exp</code> claims), and filesystem metadata. Converting them to a readable date is a constant need when debugging.</p>
+        <p>All conversion runs locally in your browser. The tool accepts both 10-digit (second-precision) and 13-digit (millisecond-precision) timestamps and auto-detects the format. The current timestamp auto-updates every second.</p>
+      </section>
     </div>
   );
 }

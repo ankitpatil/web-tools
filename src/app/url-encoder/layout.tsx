@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "URL Encoder/Decoder — Free Online Tool",
-  description: "Encode or decode URL components and query strings instantly. Supports percent-encoding. Free and private.",
+  description: "Encode URLs and URL components using percent-encoding, or decode encoded URLs back to plain text. Instant and fully browser-based. Free, private, no sign-up needed.",
   keywords: ["url encoder", "url decoder", "percent encoding", "urlencode online", "url escape"],
   alternates: { canonical: "/url-encoder" },
   openGraph: {

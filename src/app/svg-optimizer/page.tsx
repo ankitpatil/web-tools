@@ -105,6 +105,13 @@ export default function SvgOptimizer() {
           </div>
         </>
       )}
+
+      <section className="tool-prose">
+        <h2>About the SVG Optimizer</h2>
+        <p>The SVG Optimizer reduces SVG file sizes by removing unnecessary elements: editor metadata, comments, hidden layers, default attribute values, and redundant whitespace. Paste your SVG markup and get a minified version along with the exact byte savings.</p>
+        <p>SVGs exported from design tools like Figma, Illustrator, and Sketch typically contain significant bloat: editor metadata, descriptive comments, redundant <code>style</code> attributes that match default values, and unnecessary whitespace. These additions are helpful for editing but have no effect on rendering — they only add file size and HTTP transfer time.</p>
+        <p>Optimizing SVGs is important for web performance: smaller SVG files parse faster, render faster, and reduce bandwidth. This tool applies a rule-based optimization pass inspired by SVGO. All optimization runs locally in your browser — your SVG data is never uploaded or sent to a server.</p>
+      </section>
     </div>
   );
 }

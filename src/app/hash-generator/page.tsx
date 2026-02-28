@@ -47,6 +47,13 @@ export default function HashGenerator() {
           <div className="output-box text-sm" style={{ minHeight: "auto" }}>{val}</div>
         </div>
       ))}
+
+      <section className="tool-prose">
+        <h2>About the Hash Generator</h2>
+        <p>The Hash Generator computes SHA-1, SHA-256, SHA-384, and SHA-512 cryptographic hashes for any input string. Type or paste your text and instantly see all four hash values. Hash generation uses the browser&apos;s native Web Crypto API — no external libraries required.</p>
+        <p>Cryptographic hash functions produce a fixed-length digest from any input. The same input always produces the same hash; even a one-character change produces a completely different output. Hashes are used to verify file integrity (checksums), store passwords securely, generate content-addressable identifiers (like Git commit hashes), and create message authentication codes (MACs).</p>
+        <p>SHA-256 is currently the most widely used hash algorithm and is recommended for new applications. SHA-1 is provided for compatibility with legacy systems but is no longer considered cryptographically secure for new use cases. All hashing runs entirely in your browser using the Web Crypto API — your input data is never transmitted.</p>
+      </section>
     </div>
   );
 }

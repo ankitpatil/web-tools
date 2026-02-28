@@ -223,6 +223,37 @@ export default function RegexTester() {
           </div>
         )}
       </div>
+
+      <section className="tool-prose">
+        <h2>About the Regex Tester</h2>
+        <p>The Regex Tester lets you test regular expression patterns against any input string with live match highlighting and capture group display. Type a pattern and a test string, choose your flags, and see every match highlighted in real time. Supports substitution mode to preview how <code>String.replace()</code> transforms your input.</p>
+        <p>Regular expressions (regex) are sequences of characters that define a search pattern. They are used in virtually every programming language for tasks like input validation, log parsing, data extraction, URL routing, and find-and-replace operations. Writing a regex is straightforward; verifying that it matches exactly what you intend — and nothing it shouldn&apos;t — is where a live tester is essential.</p>
+        <p>Supported flags: <code>g</code> (global — find all matches), <code>i</code> (case-insensitive), and <code>m</code> (multiline — <code>^</code> and <code>$</code> match line boundaries). All regex processing runs locally in your browser using JavaScript&apos;s built-in RegExp engine.</p>
+      </section>
+
+      <section className="tool-faq">
+        <h2>Frequently Asked Questions</h2>
+        <details>
+          <summary>What are regular expressions?</summary>
+          <p>Regular expressions (regex) are sequences of characters that define a search pattern. A regex engine scans text for substrings matching the pattern. They are used in every programming language for validation, parsing, extraction, and transformation of text data.</p>
+        </details>
+        <details>
+          <summary>What regex flags does this tool support?</summary>
+          <p><code>g</code> (global — find all matches, not just the first), <code>i</code> (case-insensitive — <code>A</code> matches <code>a</code>), and <code>m</code> (multiline — <code>^</code> matches the start of each line, not just the start of the string).</p>
+        </details>
+        <details>
+          <summary>How do I use capture groups?</summary>
+          <p>Wrap a part of your pattern in parentheses: <code>(\d&#123;4&#125;)-(\d&#123;2&#125;)-(\d&#123;2&#125;)</code> captures year, month, and day separately. Captured groups appear in the match results and can be referenced in replacement strings as <code>$1</code>, <code>$2</code>, etc.</p>
+        </details>
+        <details>
+          <summary>What&apos;s the difference between <code>.*</code> and <code>.*?</code>?</summary>
+          <p><code>.*</code> is greedy — it matches as many characters as possible. <code>.*?</code> is lazy — it matches as few characters as possible. For example: <code>&lt;.*&gt;</code> would match the entire string <code>&lt;b&gt;bold&lt;/b&gt;</code>, while <code>&lt;.*?&gt;</code> would match <code>&lt;b&gt;</code> and <code>&lt;/b&gt;</code> separately.</p>
+        </details>
+        <details>
+          <summary>Why does my regex match here but not in my code?</summary>
+          <p>The most common cause is forgetting to escape backslashes in string literals. In JavaScript, <code>new RegExp(&quot;\\d+&quot;)</code> is equivalent to the literal <code>/\d+/</code>. Also verify that you are using the same flags in both places.</p>
+        </details>
+      </section>
     </div>
   );
 }
