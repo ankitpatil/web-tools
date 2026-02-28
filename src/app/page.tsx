@@ -31,6 +31,10 @@ const tools = [
   { name: "Crontab Generator", desc: "Build cron expressions with schedule preview", href: "/crontab-generator", icon: "⏰" },
   { name: "JSON to TypeScript", desc: "Generate TypeScript interfaces from JSON", href: "/json-to-typescript", icon: "🔷" },
   { name: "Chmod Calculator", desc: "Calculate Linux file permissions visually", href: "/chmod-calculator", icon: "🔒" },
+  { name: "bcrypt Generator", desc: "Hash and verify passwords with bcrypt", href: "/bcrypt-generator", icon: "🔑" },
+  { name: "HMAC Generator", desc: "Generate HMAC-SHA256/384/512 signatures", href: "/hmac-generator", icon: "✍️" },
+  { name: "Password Strength", desc: "Analyze password entropy and crack time", href: "/password-strength", icon: "🛡️" },
+  { name: "HTTP Status Codes", desc: "Complete reference for all HTTP status codes", href: "/http-status-codes", icon: "🌐" },
 ];
 
 export default function Home() {
@@ -39,7 +43,7 @@ export default function Home() {
       <div className="mb-12 text-center">
         <h1 className="mb-3 text-4xl font-bold tracking-tight">⚡ OnlineFreeTools.dev</h1>
         <p className="text-lg text-[var(--text-secondary)]">
-          30+ free developer tools that run entirely in your browser. Fast, private, no sign-up.
+          34+ free developer tools that run entirely in your browser. Fast, private, no sign-up.
         </p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
