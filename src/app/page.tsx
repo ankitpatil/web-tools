@@ -38,6 +38,9 @@ const tools = [
   { name: "Subnet Calculator", desc: "Calculate IPv4 CIDR subnets and host ranges", href: "/subnet-calculator", icon: "🌍" },
   { name: "User Agent Parser", desc: "Detect browser, OS, and device from UA string", href: "/user-agent-parser", icon: "🔎" },
   { name: "WiFi QR Generator", desc: "Share WiFi password as a scannable QR code", href: "/wifi-qr-generator", icon: "📶" },
+  { name: "JWT Encoder", desc: "Create and sign JWT tokens with HS256/384/512", href: "/jwt-encoder", icon: "🔏" },
+  { name: "Meta Tag Generator", desc: "Generate SEO and Open Graph meta tags", href: "/meta-tag-generator", icon: "🏷️" },
+  { name: "Docker → Compose", desc: "Convert docker run to docker-compose.yml", href: "/docker-compose-converter", icon: "🐳" },
 ];
 
 export default function Home() {
@@ -46,7 +49,7 @@ export default function Home() {
       <div className="mb-12 text-center">
         <h1 className="mb-3 text-4xl font-bold tracking-tight">⚡ OnlineFreeTools.dev</h1>
         <p className="text-lg text-[var(--text-secondary)]">
-          37+ free developer tools that run entirely in your browser. Fast, private, no sign-up.
+          40+ free developer tools that run entirely in your browser. Fast, private, no sign-up.
         </p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
