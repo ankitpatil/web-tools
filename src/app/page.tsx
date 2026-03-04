@@ -41,6 +41,11 @@ const tools = [
   { name: "JWT Encoder", desc: "Create and sign JWT tokens with HS256/384/512", href: "/jwt-encoder", icon: "🔏" },
   { name: "Meta Tag Generator", desc: "Generate SEO and Open Graph meta tags", href: "/meta-tag-generator", icon: "🏷️" },
   { name: "Docker → Compose", desc: "Convert docker run to docker-compose.yml", href: "/docker-compose-converter", icon: "🐳" },
+  { name: "curl to Code", desc: "Convert curl to Python, JS, Go, PHP", href: "/curl-to-code", icon: "⚡" },
+  { name: "Contrast Checker", desc: "Check WCAG AA/AAA color contrast ratios", href: "/contrast-checker", icon: "👁️" },
+  { name: "ASCII / Hex Converter", desc: "Encode text to hex, binary, octal, Base64", href: "/ascii-hex", icon: "🔡" },
+  { name: "HTML Entities", desc: "Encode and decode HTML entities", href: "/html-entities", icon: "🏷️" },
+  { name: "Semver Comparator", desc: "Compare and sort semantic version numbers", href: "/semver", icon: "📦" },
 ];
 
 export default function Home() {
@@ -49,7 +54,7 @@ export default function Home() {
       <div className="mb-12 text-center">
         <h1 className="mb-3 text-4xl font-bold tracking-tight">⚡ OnlineFreeTools.dev</h1>
         <p className="text-lg text-[var(--text-secondary)]">
-          40+ free developer tools that run entirely in your browser. Fast, private, no sign-up.
+          45+ free developer tools that run entirely in your browser. Fast, private, no sign-up.
         </p>
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
