@@ -12,12 +12,12 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata: Metadata = {
   metadataBase: new URL("https://onlinefreetools.dev"),
   title: { default: "OnlineFreeTools.dev — Free Online Developer Tools", template: "%s | OnlineFreeTools" },
-  description: "27+ free, fast, client-side developer tools. JSON formatter, Base64 encoder, UUID generator, and more. No data leaves your browser.",
+  description: "45+ free, fast, client-side developer tools. JSON formatter, Base64 encoder, UUID generator, and more. No data leaves your browser.",
   keywords: ["developer tools", "json formatter", "base64", "uuid generator", "online tools", "free tools", "browser tools"],
   alternates: { canonical: "/" },
   openGraph: {
     title: "OnlineFreeTools.dev — Free Online Developer Tools",
-    description: "27+ free, fast, client-side developer tools. No data leaves your browser.",
+    description: "45+ free, fast, client-side developer tools. No data leaves your browser.",
     type: "website",
     url: "https://onlinefreetools.dev",
     siteName: "OnlineFreeTools.dev",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "OnlineFreeTools.dev — Free Online Developer Tools",
-    description: "27+ free, fast, client-side developer tools. No data leaves your browser.",
+    description: "45+ free, fast, client-side developer tools. No data leaves your browser.",
   },
 };
 
@@ -52,7 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@type": "WebSite",
               name: "OnlineFreeTools.dev",
               url: "https://onlinefreetools.dev",
-              description: "27+ free, fast, client-side developer tools. No data leaves your browser.",
+              description: "45+ free, fast, client-side developer tools. No data leaves your browser.",
               potentialAction: {
                 "@type": "SearchAction",
                 target: "https://onlinefreetools.dev/?q={search_term_string}",
