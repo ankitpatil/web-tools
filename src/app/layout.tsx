@@ -42,6 +42,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   gtag('config', 'AW-976403613');`,
           }}
         />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `gtag('event', 'conversion', {
+    'send_to': 'AW-976403613/dWZjCPKU74IcEJ35ytED',
+    'value': 1.0,
+    'currency': 'USD'
+  });`,
+          }}
+        />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <script
